@@ -1,0 +1,169 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: gainsboro;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: darkgoldenrod;
+  font-family: "Agu Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+#navbar {
+  width: 100px;
+  padding: 8px;
+}
+
+#banner {
+  width: 100%;
+  height: 200px;
+  border: 2px solid goldenrod;
+  margin: 2px;
+}
+
+#about {
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 8px;
+}
+
+#description {
+  width: 50%;
+  padding-right: 8px;
+}
+#team {
+  width: 50%;
+}
+
+#team-image {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.location {
+  color: blueviolet;
+  margin-bottom: 16px;
+}
+
+h3 {
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.jobs {
+  max-width: 800px;
+  padding: 0 8px;
+  margin: 0 auto;
+}
+
+#jobs-table {
+  width: 100%;
+  /* border: 2px solid gray; */
+  /* border-collapse: collapse; */
+  text-align: center;
+}
+
+#jobs-table tr:nth-child(even) {
+  background-color: antiquewhite;
+}
+
+.jobs-header {
+  background-color: aliceblue;
+}
+
+.jobs-header th {
+  padding: 6px;
+  /* border: 2px solid gray; */
+}
+
+.jobs-data td {
+  padding: 10px;
+  /* border-right: 2px solid gray; */
+}
+
+.apply {
+  float: right;
+}
+
+#application {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 8px;
+}
+
+#application-form div {
+  margin: 8px;
+}
+
+#application-form label {
+  font-weight: 500;
+}
+
+#application-form input,
+select,
+textarea {
+  padding: 8px;
+  font-size: 1rem;
+  margin-top: 2px;
+  border: 2px solid goldenrod;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-group input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.form-group input[type="submit"] {
+  background-color: rgb(56, 56, 237);
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#footer {
+  background-color: aliceblue;
+  padding: 16px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+#footer-links {
+  /* list-style: none;s */
+  /* display: flex; */
+  /* text-align: center; */
+}
+
+#footer-links li {
+  display: inline;
+  margin: 8px;
+  /* text-align: center; */
+}
+
+#copyright {
+  color: gray;
+  /* text-align: center; */
+  /* margin: 0 auto; */
+}

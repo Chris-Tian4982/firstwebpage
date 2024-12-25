@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="description" content="My Little Experiment" />
+    <title>Test Page</title>
+    <link rel="stylesheet" href="
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agu+Display&family=Protest+Guerrilla&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div>
+      <img
+        id="navbar"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVeZFe8zFyAbrSH-KBDqMEWMIsMvzT0LRpeA&s"
+        alt="navbar"
+      />
+    </div>
+    <img
+      id="banner"
+      src="https://cdn.textstudio.com/output/sample/normal/0/9/6/1/christian-logo-275-169.webp"
+      alt="Banner"
+    />
+    <h1>About Chris Tian</h1>
+    <div id="about">
+      <div id="description">
+        <p style="margin-top: 0">
+          My name is <strong>Uzor Oluchukwu Christian</strong>, a Mechatronics
+          Engineer by profession. Aspiring to be a Software Engineer, and also a
+          Security Analyst in less than 2 years. I'm also a Professional
+          Recording Guitarist.
+          <em>
+            I'm enthusiastic when it comes to Investments, ranging from Real
+            estate to Foreign Exchange, Cryptocurrency, God's money.
+          </em>
+        </p>
+        <p><em>Skills I would have in 5 years</em>;</p>
+        <div>
+          <ol>
+            <a
+              href="https://www.coursera.org/courses?query=full%20stack%20web%20development"
+            >
+              <li>Full stack Developer</li>
+            </a>
+            <a href="https://www.coursera.org/courses?query=cybersecurity">
+              <li>Security Analyst</li>
+            </a>
+            <a
+              href="https://www.justinguitar.com/guitar-lessons/essential-slide-guitar-techniques-te-801"
+              ><li>Slide Guitarist</li>
+            </a>
+          </ol>
+        </div>
+      </div>
+      <div id="team">
+        <img
+          id="team-image"
+          src="images/team/teamjw.jpg"
+          alt=" Team"
+          height="200px"
+        />
+      </div>
+    </div>
+
+    <h2>Job Opportunities</h2>
+    <div class="jobs">
+      <div>
+        <a
+          class="apply"
+          href="mailto:mrtian4982@gmail.com?subject=Frontend"
+          target="_blank"
+          >Apply</a
+        >
+        <h3 class="job-role">Frontend Developer</h3>
+        <div class="location">Owerri, Nigeria.</div>
+      </div>
+      <div>
+        <a
+          class="apply"
+          href="mailto:mrtian4982@gmail.com?subject=Backend"
+          target="_blank"
+          >Apply</a
+        >
+        <h3 class="job-role">Backend Developer</h3>
+        <div class="location">Enugu, Nigeria.</div>
+      </div>
+      <div>
+        <a
+          class="apply"
+          href="mailto:mrtian4982@gmail.com?subject=Cybersecurity"
+          target="_blank"
+          >Apply</a
+        >
+        <h3 class="job-role">Cybersecurity Analyst</h3>
+        <div class="location">Remote</div>
+      </div>
+    </div>
+
+    <h2>Job Details</h2>
+    <div class="jobs">
+      <table id="jobs-table">
+        <tr class="jobs-header">
+          <th rowspan="2">Jobs</th>
+          <th colspan="2">Location</th>
+          <th rowspan="2">Salary</th>
+          <th rowspan="2">Posted On</th>
+          <th rowspan="2">Experience</th>
+        </tr>
+        <tr class="jobs-header">
+          <th>City</th>
+          <th>Country</th>
+        </tr>
+
+        <tr class="jobs-data">
+          <td>Frontend Developer</td>
+          <td>Owerri,</td>
+          <td>Nigeria</td>
+          <td>$180,000</td>
+          <td>Aug. 20, 2024</td>
+          <td>2 years</td>
+        </tr>
+        <tr class="jobs-data">
+          <td>Backend Developer</td>
+          <td>Enugu,</td>
+          <td>Nigeria</td>
+          <td>$200,000</td>
+          <td>Dec. 16, 2024</td>
+          <td>3 years</td>
+        </tr>
+        <tr class="jobs-data">
+          <td>Cybersecurity Analyst</td>
+          <td colspan="2">Remote</td>
+          <td>$250,000</td>
+          <td>Dec. 21,2024.</td>
+          <td>Entry Level</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="application">
+      <h2>Submit Your Application</h2>
+      <form id="application-form" action="">
+        <div class="form-group">
+          <label for="name">Name</label> <br />
+          <input
+            type="text"
+            name="Full Name"
+            id="name"
+            required
+            placeholder="Chris Tian"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label> <br />
+          <input
+            type="email"
+            name="Email Address"
+            id="email"
+            required
+            placeholder="chris@example.com"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label> <br />
+          <input
+            type="tel"
+            name="Phone Number"
+            id="phone"
+            required
+            placeholder="+2348115424982"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="dob">Date of Birth</label> <br />
+          <input type="date" name="Date of Birth" id="DOB" />
+        </div>
+
+        <div class="form-group">
+          <label for="position">Position Applied for</label> <br />
+          <select name="Position Selected" id="position" required>
+            <option value="">Select Position</option>
+            <option value="Frontend Developer">Frontend Developer</option>
+            <option value="Backend Developer">Backend Developer</option>
+            <option value="Cybersecurity Analyst">Cybersecurity Analyst</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="resume">Upload Resume</label> <br />
+          <input
+            type="file"
+            name="Resume"
+            id="resume"
+            accept=".pdf, .docx, .jpeg, .doc"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="resume">Cover Letter</label> <br />
+          <textarea
+            name="Cover Letter"
+            id="resume"
+            rows="5"
+            required
+            placeholder="Tell us why you think your qualified for position"
+          ></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="terms">
+            <input type="checkbox" name="Terms" id="terms" required />
+            I agree to the terms and conditions.
+          </label>
+        </div>
+
+        <div class="form-group">
+          <input type="Submit" value="Submit Application" />
+        </div>
+      </form>
+    </div>
+
+    <div id="footer">
+      <ul id="footer-links">
+        <li>
+          <a href="https://x.com/MrTian70652402" target="_blank">Twitter</a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/@chris_tian4982" target="_blank"
+            >Youtube</a
+          >
+        </li>
+        <li>
+          <a href="https://facebook.com/Chris Tian" target="_blank">Facebook</a>
+        </li>
+      </ul>
+      <span id="copyright">&copy; 2024, Chris Tian.</span>
+    </div>
+  </body>
+</html>
